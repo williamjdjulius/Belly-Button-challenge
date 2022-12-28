@@ -140,8 +140,7 @@ function init() {
     // 3. Create a variable that converts the washing frequency to a floating point number.
       var wfreqs = gaugeResult.wfreq;
       console.log(wfreqs)
-    
-      // 4. Create the trace object for the gauge chart.
+    // 4. Create the trace object for the gauge chart.
       var gaugeData = [{
         value: wfreqs,
         type: "indicator",
